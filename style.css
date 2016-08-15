@@ -1,0 +1,99 @@
+@import "reset.css";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body { 
+	font: normal 14px 'Open Sans', Arial, sans-serif;
+	color: #999;
+	background: #f1f1f1;
+
+	width: 400px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 30px;
+	margin:0 auto;
+}
+
+.task-list {
+	width: 88%;
+	min-height: 300px;
+	background: #fff;
+	box-shadow: 2px 2px 0px #ddd;
+	margin-top: 20px;
+	padding: 20px 6%;
+}
+
+.task-list span {
+	width: 86%;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	font-size: 16px;
+}
+
+.task-list .delete-button {
+	width: 15px;
+	height: auto;
+	padding-top: 7px;
+	float: right;
+	vertical-align: top;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.task-list .complete-button {
+	width: 18px;
+	height: auto;
+	padding-top: 5px;
+	padding-right: 10px;
+	float: left;
+	vertical-align: top;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.finished-task-list {
+	width: 86%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+	color: DarkGray;
+	text-decoration: line-through;
+}
+
+.add-new-task {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.add-new-task .add-button {
+	width: 30px;
+	height: auto;
+	margin-left: 188px;
+	margin-top: 20px;
+	vertical-align: top;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.add-new-task input[type='text'] {
+	width: 100%;
+	font: normal 1.2em 'Open Sans', Arial, sans-serif;
+	color: #999;
+	box-shadow: 2px 2px 0px #ddd;
+	border: none;
+	border-radius: none;
+	display: block;
+	padding: 20px 6%;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+			appearance: none;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
